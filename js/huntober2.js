@@ -9,5 +9,5 @@ function domainName (url){
     url = url.replace(/^https?:\/\//, "") //we want to remove protocols the http or https
     url = url.replace(/^www\./, "") // we want to remove www 
     
-    return url.split("."). url[0] //split the URL into parts on the . character. The first part is the domain name, so we return that :)
+    return url.split("."). url[0] //split the URL into parts on the . character. The first part is the domain name, so we return that
 }
